@@ -1,0 +1,63 @@
+# skip compiled output
+/node_modules
+/dist
+_build
+_static
+_templates
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.code-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# skip auto-build
+/views
+/resources
+/public
+
+# skip CORE
+/ket_modules
+
+#skip config files
+/config/cert.pem
+/config/key.pem
+/config/env.json
+/package.json
+/package-lock.json
+/tsconfig.json
+/app/app.ts
+/app/server.ts
+/nodemon.json
+/.sequelizerc
+/app/api_doc/swagger.json
